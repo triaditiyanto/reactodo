@@ -20,7 +20,7 @@ class TodoApp extends React.Component {
         <TodoList items={this.state.items} />
         <form onSubmit={this.handleSubmit}>
           <label htmlFor="new-todo">
-            note your schedule !
+            note your schedule :)
           </label>
           <input
             id="new-todo"
